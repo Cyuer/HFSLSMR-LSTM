@@ -177,4 +177,5 @@ if __name__ == '__main__':
     main("SSE.csv")
     print('True:',*true_pre[0],sep=' ')
     print('Pre:', *true_pre[1], sep=' ')
+    print('Performance metrics for Normalization label price.')
     print('mse,rmse,mae,mape,r2:',*measure[0],sep=' ')
